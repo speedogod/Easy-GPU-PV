@@ -1,6 +1,6 @@
 ﻿$params = @{
     VMName = "GPUPV"
-    SourcePath = "C:\Users\james\Downloads\Win11_English_x64.iso"
+    SourcePath = "C:\Users\ibaruah\Downloads\Win10_22H2_EnglishInternational_x64v1__downloaded_via_rufus.iso"
     Edition    = 6
     VhdFormat  = "VHDX"
     DiskLayout = "UEFI"
@@ -8,14 +8,14 @@
     MemoryAmount = 8GB
     CPUCores = 4
     NetworkSwitch = "Default Switch"
-    VHDPath = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\"
+    VHDPath = "C:\Users\ibaruah\HyperV VMs\Virtual Hard Disks"
     UnattendPath = "$PSScriptRoot"+"\autounattend.xml"
     GPUName = "AUTO"
-    GPUResourceAllocationPercentage = 50
+    GPUResourceAllocationPercentage = 100
     Team_ID = ""
     Key = ""
     Username = "GPUVM"
-    Password = "CoolestPassword!"
+    Password = "password!@#"
     Autologon = "true"
 }
 
